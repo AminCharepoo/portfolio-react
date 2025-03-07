@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title: "Cool stuff about me ",
     description: "",
-    className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
+    className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[50vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Skills to pay bills (i aint getting a job in this market)",
+    title: "Skills to pay bills",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",

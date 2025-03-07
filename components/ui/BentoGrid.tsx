@@ -93,7 +93,7 @@ export const BentoGridItem = ({
             )}
 
             <div className={cn(
-                titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col padding-x-5 lg:p-10' )}>
+                titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col padding-x-5 lg:p-10 md:pl-10 pl-5' )}>
                     <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
                         {description}
                     </div>
@@ -133,7 +133,7 @@ export const BentoGridItem = ({
                     loop: copied, 
                     autoplay: copied,
                     animationData,
-                    renderSettings: {
+                    rendererSettings: {
                       preserveAspectRatio: 'xMidYmid slice', 
                     }
                   }} />

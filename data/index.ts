@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Work Experience", link: "#workExperience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -71,34 +71,34 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Virtual Reality Computer Building Simulator",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Product Price Tracker",
+    des: "Store your links for products and their auction link for easy access. Great for people that wait for a great deal.",
+    img: "/ProductTracker.png",
+    iconLists: ["/logo-javascript.svg", "/html-1.svg", "/css-3.svg"],
+    link: "https://amincharepoo.github.io/Product-Tracker/",
   },
   {
     id: 2,
     title: "Virtual Reality Bowling Simulator",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Simple bowling game to help beginners learn the ruels of bowling",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/c--4.svg", "/unity-69.svg", "/meta-3.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
   },
   {
     id: 3,
     title: "Sudoku Solver",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "Solve even the hardest Sudoku problems!",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: ["/python-5.svg"],
+    link: "https://github.com/AminCharepoo/sudoku-solver",
   },
   {
     id: 4,
-    title: "UnitedDevs",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Virtual Reality Wizard Game",
+    des: "Explore a dangerous maze as a wizard drawing your own spells!",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/c--4.svg", "/unity-69.svg", "/blender-2.svg", "/meta-3.svg"],
     link: "https://github.com/adrianhajdin/iphone",
   },
 ];

@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Work Experience", link: "#workExperience" },
+  //{ name: "Work Experience", link: "#workExperience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -40,6 +40,17 @@ export const gridItems = [
     spareImg: "",
   },
   {
+    id: 5,
+    title: "Education",
+    description: "",
+    moreInfo: "Northeastern University 2024-Present\nComputer Science\nGPA: 4.0\nActivities: NUVR Executive Board\nRelevant Classes: Intro to Java\nDean's List: 2024",
+    className: "md:col-span-3 md:row-span-1", //md:col-span-1 md:row-span-2 md:text-white text-purple 
+    imgClassName: "mt-32 h-20 mt-12 mr-auto lg:mt-36",
+    titleClassName: "justify-center md:justify-start lg:justify-center",
+    img: "/NEUlogo2.png",
+    spareImg: "/grid.svg",
+  },
+  {
     id: 3,
     title: "Skills to pay bills",
     description: "I constantly try to improve",
@@ -50,28 +61,19 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
-    id: 5,
-    title: "Education",
-    description: "",
-    moreInfo: "Northeastern University 2024-Present\nComputer Science\nGPA: 4.0\nActivities: NUVR Executive Board\nRelevant Classes: Intro to Java\nDean's List: 2024",
-    className: "md:col-span-1 md:row-span-2",
-    imgClassName: "mt-32 mr-auto h-24",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/NEUlogo2.png",
-    spareImg: "/grid.svg",
-  },
+  
   {
     id: 6,
     title: "Contact me (imagine using email you boomer)",
     description: "",
     moreInfo: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
   },
+ 
 ];
 
 export const projects = [
@@ -210,13 +212,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: "https://github.com/AminCharepoo"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/amin-charepoo/"
   },
 ];

@@ -10,9 +10,19 @@ export const gridItems = [
     id: 1,
     title: "",
     description: "",
-    className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[50vh]",
+    className: "col-span-2 row-span-2", //lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[50vh]
     imgClassName: "h-[500px]",
     titleClassName: "justify-end",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 3,
+    title: "Programming Languages",
+    description: "I constantly try to improve",
+    className: "row-span-2", //lg:col-span-2 md:col-span-3 md:row-span-1
+    imgClassName: "",
+    titleClassName: "justify-center",
     img: "",
     spareImg: "",
   },
@@ -27,46 +37,30 @@ export const gridItems = [
   //   img: "",
   //   spareImg: "",
   // },
-  {
-    id: 4,
-    title: "Hello!",
-    description: "",
-    className: "lg:col-span-1 md:col-span-3 md:row-span-2",
-    imgClassName: "rounded-full h-[200px] mt-20 ml-3",
-    titleClassName: "justify-start",
-    img: "MyPhoto.png",
-    spareImg: "",
-  },
-  {
-    id: 5,
-    title: "Education",
-    description: "",
-    className: "md:col-span-3 md:row-span-1", //md:col-span-1 md:row-span-2 md:text-white text-purple 
-    imgClassName: "mt-32 h-20 mt-12 mr-auto lg:mt-36",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 3,
-    title: "Skills to pay bills",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
+ 
+
+ 
   
   {
     id: 6,
-    title: "Contact me (imagine using email you boomer)",
+    title: "Contact me",
     description: "",
-    className: "lg:col-span-1 md:col-span-3 md:row-span-1",
+    className: "", //lg:col-span-1 md:col-span-3 md:row-span-1
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
+  },
+
+  {
+    id: 5,
+    title: "Education",
+    description: "",
+    className: "col-span-2 ", //md:col-span-3 md:row-span-1
+    imgClassName: "",
+    titleClassName: "justify-center md:justify-start lg:justify-center",
+    img: "",
+    spareImg: "/grid.svg",
   },
  
 ];

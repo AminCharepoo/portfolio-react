@@ -26,6 +26,7 @@ const config = {
         // sm: 623+ px
         // md: 750+ px
         // lg: 1007+ px
+        // xl: 1263+ px
         "2xl": "1400px",
         
       },

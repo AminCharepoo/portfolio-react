@@ -107,118 +107,53 @@ export const BentoGridItem = ({
             {id === 2 && <GlobeDemo />}
 
             {id === 3 && (
-              <div className="flex gap-1 lg:gap-2 w-fit absolute -top-2 lg:-right-2 mt-4">
-                <div className="flex flex-col gap-3 lg:gap-5">
-                  {['React.js', 'Next.js', 'TypeScript'].map((item) => (
-                    <span key={item} className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-ceenter bg-[#10132E]">
-                      {item}
-                    </span>
-                  ))}
-                  <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-                </div>
-                <div className="flex flex-col gap-3 lg:gap-5">
-                  <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
-                  {['JavaScript', 'Python', 'Java'].map((item) => (
-                    <span key={item} className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-ceenter bg-[#10132E]">
-                      {item}
-                    </span>
-                  ))}
-                </div>
-              </div>
+              <div></div>
             )}
-{/* border bg-black-100 */}
-            {id == 5 && (
+
+                      
+          {id == 5 && (
               /*Titles Title*/
-              <div className="flex justify-around flex-wrap">
-                <div className="border w-1/2 flex justify-center"> {/* NEU Title*/}
+              <div className="flex justify-around flex-wrap border md:px-3 md:-ml-10 lg:ml-0 lg:pr-0" >
+                <div className="w-1/2 flex justify-center"> {/* NEU Title*/}
                   <h1 className="text-2xl text-purple">Northeastern University</h1>
                 </div>
-                <div className="border w-1/2 flex justify-center"> {/* Other school Title*/}
-                <h1 className="text-2xl text-purple">Another School</h1>
+                <div className="w-1/2 flex justify-center"> {/* Other school Title*/}
+                  <h1 className="text-2xl text-purple">Another School</h1>
                 </div>
 
                 {/* Descriptions */}
-                <div className="border w-1/2 "> {/* NEU Description*/}
+                <div className="w-1/2 "> {/* NEU Description*/}
                   <div className="flex">
-                    <img src="/NEUlogo2.png" width="150px" height=""/>
-                    <div className="flex items-center"> {/* Info */}
-                      <p>
+                    <img src="/NEUlogo2.png" className=" md:w-[80px] md:h-auto md:self-center lg:w-[150px] lg:h-auto" />
+                    <div className="flex items-center ml-4"> {/* Info */}
                         <ul className="list-disc pl-5 ">
                           <li>2024-Present</li>
                           <li>GPA: 4.0</li>
                           <li>NUVR Executive Board Member</li>
                           <li>Dean's List 2024</li>
                         </ul>
-                      </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="border w-1/2 "> {/* Other school Description*/}
+                <div className="w-1/2 "> {/* Other school Description*/}
                   <div className="flex">
-                    <img src="/NEUlogo2.png" width="150px" height=""/>
-                    <div className="flex items-center"> {/* Info */}
-                      <p >
+                    <img src="/NEUlogo2.png" className=" md:w-[80px] md:h-auto md:self-center lg:w-[150px] lg:h-auto"/>
+                    <div className="flex items-center ml-4"> {/* Info */}
                         <ul className="list-disc pl-5 ">
                           <li>2025-Present</li>
                           <li>GPA: 4.0</li>
                           <li>NUVR Executive Board Member</li>
                           <li>Dean's List 2024</li>
                         </ul>
-                      </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-
-
-             /* 
-                <div className="flex justify-around mb-10"> 
-                <div className=" w-[600px]  -mt-5 mb-10"> 
-                  <div className="flex justify-between mb-5"> 
-                    <p className="flex items-center text-2xl text-purple">
-                      Northeastern University
-                    </p>
-                    
-                    <ul className="list-disc pl-5 ">
-                      <li>2024-2025</li>
-                      <li>GPA: 4.0</li>
-                      <li>NUVR Executive Board Member</li>
-                      <li>Intro to Java</li>
-                    </ul>
-                  </div>
-
-                  <div className="flex justify-between  "> 
-                    <p className="flex items-center text-2xl text-purple ">
-                      Another School
-                    </p>
-      
-                    <ul className="list-disc pl-5 ">
-                      <li>2025-Present</li>
-                      <li>GPA: 4.0</li>
-                      <li>NUVR Executive Board Member</li>
-                      <li>Intro to Java</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="flex flex-wrap border">
-                  <div className="w-1/2 flex justify-center -mt-20">
-                    <img src="/NEUlogo2.png" width="100" height="auto" />
-                  </div>
-                  <div className="w-1/2"/>
-
-                  <div className="w-1/2"/>
-                  <div className="w-1/2 flex justify-center">
-                    <img src="/NEUlogo2.png" width="100" height="auto" />
-                  </div>
-                </div>
-              </div>
-                
-                */
-
             )}
+            
+            
 
             {id === 6 && (
               <div className="mt-5 relative">

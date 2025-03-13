@@ -128,9 +128,55 @@ export const BentoGridItem = ({
             )}
 {/* border bg-black-100 */}
             {id == 5 && (
-              <div className="flex justify-around mb-10"> {/* Container */}
-                <div className=" w-[600px]  -mt-5 mb-10"> {/* School descriptions */}
-                  <div className="flex justify-between mb-5"> {/* NEU */}
+              /*Titles Title*/
+              <div className="flex justify-around flex-wrap">
+                <div className="border w-1/2 flex justify-center"> {/* NEU Title*/}
+                  <h1 className="text-2xl text-purple">Northeastern University</h1>
+                </div>
+                <div className="border w-1/2 flex justify-center"> {/* Other school Title*/}
+                <h1 className="text-2xl text-purple">Another School</h1>
+                </div>
+
+                {/* Descriptions */}
+                <div className="border w-1/2 "> {/* NEU Description*/}
+                  <div className="flex">
+                    <img src="/NEUlogo2.png" width="150px" height=""/>
+                    <div className="flex items-center"> {/* Info */}
+                      <p>
+                        <ul className="list-disc pl-5 ">
+                          <li>2024-Present</li>
+                          <li>GPA: 4.0</li>
+                          <li>NUVR Executive Board Member</li>
+                          <li>Dean's List 2024</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="border w-1/2 "> {/* Other school Description*/}
+                  <div className="flex">
+                    <img src="/NEUlogo2.png" width="150px" height=""/>
+                    <div className="flex items-center"> {/* Info */}
+                      <p >
+                        <ul className="list-disc pl-5 ">
+                          <li>2025-Present</li>
+                          <li>GPA: 4.0</li>
+                          <li>NUVR Executive Board Member</li>
+                          <li>Dean's List 2024</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+             /* 
+                <div className="flex justify-around mb-10"> 
+                <div className=" w-[600px]  -mt-5 mb-10"> 
+                  <div className="flex justify-between mb-5"> 
                     <p className="flex items-center text-2xl text-purple">
                       Northeastern University
                     </p>
@@ -143,7 +189,7 @@ export const BentoGridItem = ({
                     </ul>
                   </div>
 
-                  <div className="flex justify-between  "> {/* Dif school */}
+                  <div className="flex justify-between  "> 
                     <p className="flex items-center text-2xl text-purple ">
                       Another School
                     </p>
@@ -169,6 +215,9 @@ export const BentoGridItem = ({
                   </div>
                 </div>
               </div>
+                
+                */
+
             )}
 
             {id === 6 && (

@@ -30,11 +30,11 @@ const Hero = () => {
                     words="Transforming Concepts into Seemless Experiences"
                 />
 
-                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2x">
                     Hi, I'm Amin, a Computer Science student based in Boston
                 </p>
 
-                <a href="#about">
+                <a href="#projects">
                     <MagicButton 
                         title="Show My Work"
                         icon={<FaLocationArrow />}

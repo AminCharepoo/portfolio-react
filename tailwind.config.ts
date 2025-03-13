@@ -23,7 +23,11 @@ const config = {
       padding: "2rem",
       screens: {
         xs: "400px",
+        // sm: 623+ px
+        // md: 750+ px
+        // lg: 1007+ px
         "2xl": "1400px",
+        
       },
     },
     extend: {

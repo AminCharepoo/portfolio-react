@@ -31,7 +31,7 @@ const Hero = () => {
                 />
 
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2x">
-                    Hi, I'm Amin, a Computer Science student based in Boston
+                    Hi, I&apos;m Amin, a Computer Science student based in Boston
                 </p>
 
                 <a href="#projects">

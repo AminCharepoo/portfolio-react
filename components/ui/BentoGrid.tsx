@@ -2,7 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import {GlobeDemo} from "./GridGlobe";
 import animationData from '@/data/confetti.json';
 import Lottie from "react-lottie";
 import { useState } from "react";
@@ -102,9 +101,6 @@ export const BentoGridItem = ({
                   <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
                       {title}
                   </div>
-                  
-            
-            {id === 2 && <GlobeDemo />}
 
             {id === 3 && (
               <div></div>
@@ -130,7 +126,7 @@ export const BentoGridItem = ({
                           <li>2024-Present</li>
                           <li>GPA: 4.0</li>
                           <li>NUVR Executive Board Member</li>
-                          <li>Dean's List 2024</li>
+                          <li>Dean&apos;s List 2024</li>
                         </ul>
                     </div>
                   </div>
@@ -144,7 +140,7 @@ export const BentoGridItem = ({
                           <li>2025-Present</li>
                           <li>GPA: 4.0</li>
                           <li>NUVR Executive Board Member</li>
-                          <li>Dean's List 2024</li>
+                          <li>Dean&apos;s List 2024</li>
                         </ul>
                     </div>
                   </div>

@@ -1,7 +1,6 @@
 import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
-import { desc } from 'motion/react-client'
 import { FaLocationArrow } from 'react-icons/fa6'
 
 const RecentProjects = () => {

@@ -64,8 +64,9 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,9,121,0.74) 35%, rgba(0,212,255,1) 100%)',
-      }}      
+        background: 'rgb(2,0,36)',
+        backgroundColor: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,9,121,0.7455357142857143) 35%, rgba(0,212,255,1) 100%)',
+      }}   
     >
       <div  className={cn(id === 6 && 'flex justify-center', 'h-full')}>
           <div className="w-full h-full absolute">

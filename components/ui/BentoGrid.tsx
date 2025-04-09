@@ -1,7 +1,7 @@
 'use client'
 
 import { cn } from "@/lib/utils";
-import { BackgroundGradientAnimation } from "./GradientBg";
+import BackgroundGradientAnimation from './ClientGradientBg';
 import animationData from '@/data/confetti.json';
 import Lottie from "react-lottie";
 import { useState } from "react";
@@ -62,17 +62,16 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: 'rgb(2,0,36)',
-        backgroundColor: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,9,121,0.7455357142857143) 35%, rgba(0,212,255,1) 100%)',
-      }}
+        background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(84,9,121,0.74) 35%, rgba(0,212,255,1) 100%)',
+      }}      
     >
-      <div className={`${id === 6 && 'flex justify-center'} h-full}`}>
+      <div  className={cn(id === 6 && 'flex justify-center', 'h-full')}>
           <div className="w-full h-full absolute">
               {img && (
                   <img 
                       src={img}
                       alt={img}
-                      className={cn(imgClassName, 'object-cover, object-center')}
+                      className={cn(imgClassName, 'object-cover object-center')}
                   />
               )}
           </div>
@@ -86,11 +85,12 @@ export const BentoGridItem = ({
                   />
               )}
           </div>
-          {id === 6 && (
+          
+           {id === 6 && (
               <BackgroundGradientAnimation>
                   {/* <div className="absolute z-10 flex items-center justify-center text-white font-bold"/> */}
               </BackgroundGradientAnimation>
-          )}
+          )} 
           <div className={cn(
               titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col padding-x-5 lg:p-10 md:pl-10 pl-5 ' )}>
 
